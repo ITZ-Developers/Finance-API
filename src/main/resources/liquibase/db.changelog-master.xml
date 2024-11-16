@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+    <include file="db.changelog-1.0.0.xml" relativeToChangelogFile="true"/>
+    <include file="20240709041811_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240709092619_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240710041444_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240718101220_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240719043200_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240719082804_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240722140508_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240725041853_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240726133918_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240727101551_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240729033527_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240806081057_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240806132309_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240807054922_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240807145546_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240809044138_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240817044050_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240819041139_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240821105115_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240822071157_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240822082035_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240822101131_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240822160746_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240823133240_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240824033706_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240825073923_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240829062656_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240829093535_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240830234217_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240903084156_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240904142107_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240911071729_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240914063803_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240914175554_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20240922011243_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20241001081234_changelog.xml" relativeToChangelogFile="true"/>
+    <include file="20241011092838_changelog.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>

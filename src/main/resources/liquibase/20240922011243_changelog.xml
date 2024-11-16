@@ -1,0 +1,11 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <changeSet author=" Finance" id="1726967573213-1">
+        <dropColumn columnName="last_paid_date" tableName="db_fn_service"/>
+    </changeSet>
+    <changeSet author="Finance" id="1726967573213-2">
+        <addColumn tableName="db_fn_service">
+            <column name="is_paid" type="integer" afterColumn="expiration_date"/>
+        </addColumn>
+    </changeSet>
+</databaseChangeLog>
